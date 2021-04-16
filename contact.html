@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SparksBank|ContactUs</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/Contactus.css">
+    </head>
+    <body>
+       <nav class="navbar">
+        <h3 id="heading"><i class="fa fa-university"></i> Sparks Bank</h3>
+        <ul id="navlist">
+           <li><a href="index.html">Home</a></li>
+           <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+       </nav>
+       <div id="main">
+        <br>
+        <div id="content">
+        <form >
+        <img src="image/contact.gif">
+        <label for="fn">First Name :</label><br>
+        <input type="text" id="fn" name="Firstname" required><br>
+        <label for="ln">Last Name :</label><br>
+        <input type="text" id="ln" name="Lastname" required><br>
+        <label for="type" id="label">Information Type :</label><br>
+        <select  value="type" id="type" name="type">
+        <option value="new acc">Creating a New Account</option>
+        <option value="current acc">Information regarding Current Account</option>
+        <option value="trans">Information regarding Transaction</option>
+        <option value="web">Facing problem with Web page </option>
+        <option value="other">Other</option>
+        </select><br>
+        <label for="issue">Subject :</label><br>
+        <textarea id="issue" name="Regarding" required placeholder="Write something here......"></textarea><br>
+        <input id="btn" type="submit" value="Send">
+        <input  id="btn" type="reset" value="Reset">
+        </form>    
+        </div>
+        </div>
+        <div class="footer">
+            <p font-size="20px">For Any more Information -<br>
+            <i class="fa fa-phone" aria-hidden="true"></i> 
+             180-234-22-63 / <i class="fa fa-envelope"></i> sparksbank@mail.com</p>
+        </div>
+    </body>
