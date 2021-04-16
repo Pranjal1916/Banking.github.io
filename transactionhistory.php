@@ -17,14 +17,11 @@
            <li><a href="contact.html">Contact Us</a></li>
         </ul>
        </nav>
-
-
-	<div class="container">
-        
-        
-       <br>
-       <div class="table-responsive-sm">
-    <table>
+    <div class="container">
+    <br>
+    <div>
+    <h2 style="text-align: center; margin-top:30px; color:skyblue;">TRANSACTION HISTORY</h2>
+    <table style="margin-top:60px; box-shadow:2px 2px 8px grey;">
         <thead style="color : black;">
             <tr>
                 <th class="text-center">S.No.</th>
