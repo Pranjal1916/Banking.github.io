@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sparks Bank|Transaction Page</title>
+    <title>Sparks Bank|Customer Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/transfer.css">
+    <style>
+        button{
+           background-color : skyblue;
+        }
+    </style>
 </head>
 
 <body>
@@ -27,8 +32,8 @@
             <div class="row">
                 <div class="col">
                     <div class="table-responsive-sm">
-                    <h2 style="text-align: center; margin-top:30px; color:skyblue;">TRANSACTION</h2>
-                    <table>
+                    <h2 style="text-align: center; margin-top:30px; color:skyblue;">CUSTOMER DETAILS</h2>
+                    <table style="margin-top:60px; box-shadow:2px 2px 8px grey;">
                         <thead style="color : black;">
                             <tr>
                             <th scope="col" class="text-center py-2">ID</th>
@@ -47,7 +52,7 @@
                         <td class="py-2"><?php echo $rows['Name']?></td>
                         <td class="py-2"><?php echo $rows['Email']?></td>
                         <td class="py-2"><?php echo $rows['Balance']?></td>
-                        <td><a href="selecteduserdetail.php?ID= <?php echo $rows['ID'] ;?>"> <button type="button" class="btn" style="background-color : skyblue; outline: none; border: thin; color: white;">Transact</button></a></td> 
+                        <td><a href="selecteduserdetail.php?ID= <?php echo $rows['ID'] ;?>"> <button type="button" class="btn" style="outline: none; border: thin; color: white;">Transact</button></a></td> 
                     </tr>
                 <?php
                     }
